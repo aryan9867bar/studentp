@@ -1,0 +1,29 @@
+.main-container {
+    background-color: blue;
+   height: 85px;
+}
+.side-container {
+    background-color: rgb(1, 1, 37);
+   height: calc(100vh - 85px);
+   width: 85px;
+} 
+ul li a {
+    padding: 20px 30px 20px 30px;
+    font-size: 25px;
+    /* background-color: yellow; */
+
+
+}
+a:hover {
+    background-color: yellow;
+}
+.card-menu {
+    background-color: blue;
+    max-height: 85px;
+}
+
+
+
+
+
+

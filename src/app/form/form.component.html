@@ -1,0 +1,84 @@
+<div class="register-container justify-content-center align-items-center d-flex flex-wrap">
+    <div class="card register-form">
+        <div class="card-body d-flex justify-content-center">
+            <div class="d-flex flex-column">
+                <div class="heading">
+                    <h1>Class Registration</h1>
+                    <p style="color: red;">Fill out the form carefully for registration</p>
+                </div>
+                <div class="gender">
+                    <label style="color: black;font-size: 20px;">Gender</label>
+                    <div class="option">
+                    <div class="select">
+                        <select class="form-dropdown" style="width: 250px;">
+                        <option value="please select">please select</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="Transgender">N/A</option>
+                    </select>
+                </div>
+                    </div>
+                </div><br>
+                <div class="student">
+                    <label style="color: black;font-size: 20px">Student Name</label>
+                    <form action="/action_page.php">
+                        <label for="fname">First name:</label>
+                        <input type="text" name="fname"><br><br>
+                        <label for="fname">Middle name:</label>
+                        <input type="text" name="mname"><br><br>
+                        <label for="lname">Last name:</label>
+                        <input type="text" name="lname"><br><br>
+                      </form>
+                </div>
+                <div class="email">
+                    <label style="color: black;font-size: 20px">Student E-mail</label>
+                    <div class="input">
+                        <input type="email" placeholder="ex: myname@example.com">
+                    </div>
+                </div><br>
+                <div class="list">
+                    <label style="color: black;font-size: 20px;">List of Branches</label>
+                    <div class="branch">
+                        <select class="form-dropdown" style="width: 250px;">
+                            <option value="please select">please select</option>
+                            <option >Btech CSE</option>
+                            <option >Btech CE</option>
+                            <option >Btech ME</option>
+                            <option >Btech EE</option>
+                        </select>
+                    </div>
+                </div><br>
+                <div class="address">
+                    <label style="color: black;font-size: 20px;">Address</label>
+                    <div>
+                    <input type="text">
+                </div>
+                </div><br>
+                <div class="Country">
+                    <label style="color: black;font-size: 20px;">Country</label>
+                    <div class="option">
+                        <select class="form-dropdown" style="width: 250px;">
+                            <option value="please select">please select</option>
+                            <option data-countryCode="DZ" value="213">Algeria (+213)</option>
+                            <option data-countryCode="IS" value="354">Iceland (+354)</option>
+		                    <option data-countryCode="IN" value="91">India (+91)</option>
+                            <option data-countryCode="NP" value="977">Nepal (+977)</option>
+		                    <option data-countryCode="NL" value="31">Netherlands (+31)</option>
+		                    <option data-countryCode="NC" value="687">New Caledonia (+687)</option>
+		                    <option data-countryCode="NZ" value="64">New Zealand (+64)</option>
+                        </select>
+                </div>
+                </div><br>
+                <div class="phone">
+                    <label>Mobile No</label>
+                    <div>
+                        <input type="number" placeholder="Enter your mobile number">
+                    </div>
+                </div><br>
+                <div class="submit">
+                    <button class="btn btn-success">Register</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

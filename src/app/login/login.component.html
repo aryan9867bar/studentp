@@ -1,0 +1,26 @@
+<div class="login-container justify-content-center align-items-center d-flex flex-wrap">
+    <div class="card login-form">
+        <div class="card-body">
+            <div class="d-flex flex-column">
+                <div class="u-img">
+                    <img src="../../assets/logo.png" alt="">
+                </div>
+                <div class="username">
+                    <input type="text" class="form-control" [(ngModel)]="username" placeholder="username" required>
+                </div>
+                <div class="password">
+                    <input type="text" class="form-control" [(ngModel)]="password" placeholder="password">
+                </div>
+                <div class="submit">
+                    <button (click)="login()" class="btn btn-success">Login</button>
+                </div><br>
+               
+                <div class="submit1">
+                    <p style="text-align: center;font-size: 20px;font-weight: bold;">Dont have an account?</p>
+                    <button (click)="register()" class="btn btn-success" style="margin-top:-21px;">Register Account</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <router-outlet></router-outlet>
+</div>
